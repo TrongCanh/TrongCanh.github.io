@@ -13,7 +13,7 @@ header {
     font-family: Tahoma,Geneva,sans-serif;
     font-size: 16px;
     font-weight: bold;
-    overflow: hidden
+    
 }
 #button_header {
     background-color: #d74747;
@@ -84,4 +84,113 @@ button {
     color: white;
     cursor: pointer;
     border: 0;
+}
+.aboutus {
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: relative;
+}
+.aboutus_video {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+.aboutus_video video{
+    width:100%;
+    height:100%;
+    opacity: 0.3;
+    
+}
+.aboutus_content {
+    top:20%;
+    left:15%;
+    position: absolute;
+    text-align: center;
+    width: calc(70%);
+}
+.aboutus_content div{
+    font-size:35px;
+    font-weight: bold;
+}
+.aboutus_content p{
+    margin-top:50px;
+    font-size:20px;
+
+}
+.technology{
+    width:100%;
+    height:calc(100vh - 60px);
+}
+.left_technology {
+    width: 25%;
+    margin-left: 10%;
+}
+.center_technology {
+    width: 30%;
+}
+.right_technology {
+    width: 30%;
+}
+.left_technology img{
+    width:100px;
+    height:auto;
+}
+
+.left_technology h1 {
+
+    font-size: 32px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.left_technology p {
+    width:80%;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.main_technology {
+    color:#000000;
+    margin-top:5%;
+    float: left;
+    height: 80%;
+}
+.technology_logo{
+    float:left;
+}
+.technology_logo img{
+    width:100px;
+    background-repeat:no-repeat;
+}
+.parameter {
+    width: 100%;
+    height: 150vh;
+    background-color: #000000;
+    padding: 5%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
+.parameter .logo_parameter {
+    width: 30%;
+    height:100%;
+    float: left;
+}
+.parameter .logo_parameter img{
+    width:100%;
+    height:auto;
+}
+.parameter .content_parameter{
+    float:left;
+    padding-left:10%;
+    width:50%;
+    height:100%;
+    text-align: left;
+}
+.parameter .content_parameter h1 {
+    font-size: 35px;
+}
+.parameter .content_parameter table td{
+    padding:5px;
+}
+.parameter .content_parameter table td p {
+    padding: 20px;
+    font-weight: normal;
+
 }
